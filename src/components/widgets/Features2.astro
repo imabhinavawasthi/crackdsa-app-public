@@ -5,6 +5,7 @@ interface Item {
   title?: string;
   description?: string;
   icon?: string;
+  link?:string;
 }
 
 export interface Props {
@@ -53,14 +54,14 @@ const {
       }
       <div class={`grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12 dark:text-white items-stretch`}>
         {
-          items.map(({ title, description, icon }) => (
-            <div class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
+          items.map(({ title, description, icon,link }) => (
+            <a href={link}><div class="relative flex flex-col p-6 bg-white dark:bg-slate-900 rounded shadow-lg hover:shadow-md transition border border-transparent dark:border-slate-800">
               <div class="flex items-center">
                 <Icon name={icon} class="w-10 h-10" />
                 <div class="ml-4 text-xl font-bold">{title}</div>
               </div>
               {description && <p class="text-muted dark:text-gray-400 text-md mt-4" set:html={description} />}
-            </div>
+            </div></a>
           ))
         }
       </div>
