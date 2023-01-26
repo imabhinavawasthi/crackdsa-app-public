@@ -105,7 +105,8 @@ const {
             <a
               class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
               aria-label="RSS Feed"
-              href={getAsset('/rss.xml')}
+              target="_blank"
+              href="https://discuss.crackdsa.com"
             >
               <Icon name="tabler:rss" class="w-5 h-5" />
             </a>
@@ -120,9 +121,9 @@ const {
                     'btn ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm',
                     { 'btn-ghost': type === 'ghost', 'btn-primary': type === 'primary' },
                   ]}
-                  href={href}
+                  href={"https://auth.crackdsa.com"}
                 >
-                  <Fragment set:html={text} />
+                  <Fragment set:html={"Login/Signup"} />
                 </a>
               ))}
             </span>
