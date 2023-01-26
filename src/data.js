@@ -4,39 +4,36 @@ export const headerData = {
   links: [
     {
       text: 'Learn',
-      links: [
-        {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
-        },
-      ],
+      href:"https://learn.crackdsa.com",
+      // links: [
+      //   {
+      //     text: 'Sass',
+      //     href: getPermalink('/landing/saas'),
+      //   },
+      //   {
+      //     text: 'Startup',
+      //     href: getPermalink('/landing/startup'),
+      //   },
+      //   {
+      //     text: 'Mobile App',
+      //     href: getPermalink('/landing/mobile-app'),
+      //   },
+      // ],
     },
     {
-      text: 'Practice',
+      text: 'Explore',
       links: [
         {
           text: 'Features',
-          href: '#',
+          href: '#features',
         },
         {
-          text: 'Pricing',
-          href: '#',
+          text: 'FAQs',
+          href: '#faqs',
         },
         {
-          text: 'About us',
-          href: '#',
-        },
-        {
-          text: 'Contact',
-          href: '#',
+          text: 'Events',
+          href: '#events',
         },
         {
           text: 'Terms',
@@ -49,12 +46,12 @@ export const headerData = {
       ],
     },
     {
-      text: 'Events',
-      href: '#',
+      text: 'Courses',
+      href: '#courses',
     },
     {
-      text: 'Discuss',
-      href: getBlogPermalink(),
+      text: 'Notes App',
+      href: 'https://notes.crackdsa.com',//getBlogPermalink()
     },
   ],
   actions: [
