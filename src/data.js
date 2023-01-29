@@ -3,20 +3,20 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Learn',
-      href:"https://learn.crackdsa.com",
+      text: 'Discuss',
+      href: "https://beta.discuss.crackdsa.com",
       // links: [
       //   {
       //     text: 'Sass',
-      //     href: getPermalink('/landing/saas'),
+      //     href: getPermalink('/course/saas'),
       //   },
       //   {
       //     text: 'Startup',
-      //     href: getPermalink('/landing/startup'),
+      //     href: getPermalink('/course/startup'),
       //   },
       //   {
       //     text: 'Mobile App',
-      //     href: getPermalink('/landing/mobile-app'),
+      //     href: getPermalink('/course/mobile-app'),
       //   },
       // ],
     },
@@ -53,9 +53,6 @@ export const headerData = {
       text: 'Notes App',
       href: 'https://notes.crackdsa.com',//getBlogPermalink()
     },
-  ],
-  actions: [
-    { type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }
   ],
 };
   
@@ -111,11 +108,11 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://www.youtube.com/@AbhinavAwasthi' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/crackdsa/' },
+    { ariaLabel: 'Whatsapp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/message/TPN76XLWVOWDB1' },
+    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss') },
+    { ariaLabel: 'Gmail', icon: 'tabler:brand-gmail', href: 'mailto:helloss@crackdsa.com' },
   ],
   footNote: `
     Made with ❤️ by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://crackdsa.com/"> crackDSA</a> · All rights reserved.
