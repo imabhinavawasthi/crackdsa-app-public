@@ -50,8 +50,8 @@ export const headerData = {
       href: '#courses',
     },
     {
-      text: 'Notes App',
-      href: 'https://notes.crackdsa.com',//getBlogPermalink()
+      text: 'Bootcamps',
+      href: 'https://events.crackdsa.com',//getBlogPermalink()
     },
   ],
 };
