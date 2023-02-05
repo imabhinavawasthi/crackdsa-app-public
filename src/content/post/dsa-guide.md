@@ -9,7 +9,7 @@ tags:
   - dsa
   - interview-preparation
   - coding
-canonical: https://astrowind.vercel.app/astrowind-template-in-depth
+# canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
 
 ## Data Structures & Algorithms
