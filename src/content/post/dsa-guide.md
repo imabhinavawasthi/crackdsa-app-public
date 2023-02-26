@@ -3,13 +3,13 @@ publishDate: 2023-02-04T00:00:00Z
 title: Data Structures and Algorithms- A Guide to Preparation
 description: Complete DSA Guide for Beginners
 excerpt: Step by Step Guide for your complete DSA Journey
-image: ~/assets/images/dsaguidewhite.png
-category: Tutorials
+image: ~/assets/images/dsaguide.png
+category: Roadmaps
 tags:
   - dsa
   - interview-preparation
   - coding
-canonical: https://astrowind.vercel.app/astrowind-template-in-depth
+# canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
 
 ## Data Structures & Algorithms
