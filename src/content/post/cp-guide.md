@@ -1,7 +1,8 @@
 ---
 publishDate: 2023-02-26T00:00:00Z
 title: Competitive Programming Guide
-excerpt: Complete CP Roadmap for Beginners
+description: Here you will get the complete step by step roadmap to start CP from scratch.
+excerpt: Here you will get the complete step by step roadmap to start CP from scratch.
 image: ~/assets/images/cpguide1.png
 category: Roadmaps
 tags:

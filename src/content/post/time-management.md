@@ -1,6 +1,7 @@
 ---
 publishDate: 2023-01-09T00:00:00Z
 title: Time Management Tips
+description: Blog on how to balance multiple responsibilities
 excerpt: Balancing Multiple Responsibilities
 image: ~/assets/images/time1.png
 tags:
